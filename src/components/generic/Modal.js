@@ -69,13 +69,13 @@ const Modal = ({ closeModal = () => {} }) => {
       }}
     >
       <Wrap>
-        <Item href={"tel:35799797975"}>
+        <Item href={"tel:330625744735"}>
           <FaPhoneAlt color={colors.tealColor} size={20} />
-          <p>{"+357-99797975"}</p>
+          <p>{"+330625744735"}</p>
         </Item>
-        <Item href={"mailto:lena@gmail.com"}>
+        <Item href={"mailto:lenaryapolova2@gmail.com"}>
           <TfiEmail color={colors.tealColor} size={20} />
-          <p>{"lena@gmail.com"}</p>
+          <p>{"lenaryapolova2@gmail.com"}</p>
         </Item>
 
         <Item href={"https://wa.me/+380959021066"} target="_blank">
