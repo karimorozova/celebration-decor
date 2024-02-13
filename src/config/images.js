@@ -899,6 +899,8 @@ export const imagesConfig = {
       original: "/images/outdoor/outdoor.jpg",
       width: 250,
       height: 312,
+      originalW:900,
+      originalH:1000
     },
     {
       src: "/images/outdoor/outdoo1.jpg",
@@ -999,19 +1001,6 @@ export const imagesConfig = {
       width: 420,
       height: 352,
     },
-    {
-      src: "/images/outdoor/outdoo17.jpg",
-      original: "/images/outdoor/outdoo17.jpg",
-      width: 320,
-      height: 183,
-    },
-    {
-      src: "/images/outdoor/outdoo18.jpg",
-      original: "/images/outdoor/outdoo18.jpg",
-      width: 240,
-      height: 320,
-    },
-
     {
       src: "/images/outdoor/outdoo19.jpg",
       original: "/images/outdoor/outdoo19.jpg",

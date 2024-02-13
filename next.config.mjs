@@ -45,7 +45,7 @@ const nextConfig = {
   },
   images: {
     formats: ["image/avif", "image/webp"],
-    remotePatterns: [
+    domains: [
       "storage.googleapis.com",
       "cdn.sanity.io",
       "via.placeholder.com",

@@ -4,6 +4,8 @@ import { Gallery } from "react-grid-gallery";
 // import Lightbox from "react-image-lightbox";
 // import "react-image-lightbox/style.css";
 import styled from "styled-components";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
 import { imagesConfig } from "@/config/images";
 import useWindowSize from "../../utils/hooks/useWindowSize";
@@ -71,6 +73,11 @@ const GalleryPage = () => {
   const handleClose = () => setIndex(-1);
   const handleMovePrev = () => setIndex(prevIndex);
   const handleMoveNext = () => setIndex(nextIndex);
+  const slides = data.map(({ original, originalW, originalH }) => ({
+    src: original,
+    originalW,
+    originalH,
+  }));
 
   return (
     <Section pt={100} pb={100}>
@@ -90,7 +97,12 @@ const GalleryPage = () => {
             onClick={handleClick}
             enableImageSelection={false}
           />
-      
+       <Lightbox
+        slides={slides}
+        open={index >= 0}
+        index={index}
+        close={() => setIndex(-1)}
+      />
         </div>
       </Container>
     </Section>
