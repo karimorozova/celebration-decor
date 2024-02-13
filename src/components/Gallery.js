@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { Gallery } from "react-grid-gallery";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
+// import Lightbox from "react-image-lightbox";
+// import "react-image-lightbox/style.css";
 import styled from "styled-components";
 
 import { imagesConfig } from "@/config/images";
@@ -90,20 +90,7 @@ const GalleryPage = () => {
             onClick={handleClick}
             enableImageSelection={false}
           />
-          {!!currentImage && (
-            <Lightbox
-              mainSrc={currentImage.original}
-              imageTitle={currentImage.caption}
-              mainSrcThumbnail={currentImage.src}
-              nextSrc={nextImage.original}
-              nextSrcThumbnail={nextImage.src}
-              prevSrc={prevImage.original}
-              prevSrcThumbnail={prevImage.src}
-              onCloseRequest={handleClose}
-              onMovePrevRequest={handleMovePrev}
-              onMoveNextRequest={handleMoveNext}
-            />
-          )}
+      
         </div>
       </Container>
     </Section>
@@ -111,3 +98,18 @@ const GalleryPage = () => {
 };
 
 export default GalleryPage;
+
+// {!!currentImage && (
+//   <Lightbox
+//     mainSrc={currentImage.original}
+//     imageTitle={currentImage.caption}
+//     mainSrcThumbnail={currentImage.src}
+//     nextSrc={nextImage.original}
+//     nextSrcThumbnail={nextImage.src}
+//     prevSrc={prevImage.original}
+//     prevSrcThumbnail={prevImage.src}
+//     onCloseRequest={handleClose}
+//     onMovePrevRequest={handleMovePrev}
+//     onMoveNextRequest={handleMoveNext}
+//   />
+// )}
