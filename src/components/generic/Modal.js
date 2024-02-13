@@ -50,11 +50,26 @@ const Item = styled(Link)`
   gap: 5px;
   text-decoration: none;
   color: ${colors.mainText};
-  transition: 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   font-size: 18px;
+  p {
+    position: relative;
+    padding-bottom: 5px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: ${colors.tealColor};
+      opacity: 0;
+    }
+  }
   &:hover {
-    p {
-      text-decoration: underline;
+    p::after {
+      opacity: 1;
     }
   }
 `;
@@ -73,22 +88,17 @@ const Modal = ({ closeModal = () => {} }) => {
           <FaPhoneAlt color={colors.tealColor} size={20} />
           <p>{"+330625744735"}</p>
         </Item>
-        <Item href={"mailto:lenaryapolova2@gmail.com"}>
-          <TfiEmail color={colors.tealColor} size={20} />
-          <p>{"lenaryapolova2@gmail.com"}</p>
-        </Item>
-
         <Item href={"https://wa.me/+380959021066"} target="_blank">
           <FaWhatsapp size={20} color={colors.whatsapp} />
-          <p>{"+380959021066"}</p>
-        </Item>
-        <Item href={"viber://chat?number=+380959021066"} target="_blank">
-          <FaViber size={20} color={colors.viber} />
           <p>{"+380959021066"}</p>
         </Item>
         <Item href={"https://t.me/+380959021066"} target="_blank">
           <FaTelegram size={20} color={colors.telegram} />
           <p>{"+380959021066"}</p>
+        </Item>
+        <Item href={"mailto:lenaryapolova2@gmail.com"}>
+          <TfiEmail color={colors.tealColor} size={20} />
+          <p>{"lenaryapolova2@gmail.com"}</p>
         </Item>
         <SocialMediaList />
       </Wrap>

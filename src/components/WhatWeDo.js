@@ -39,7 +39,7 @@ const Text = styled.div`
 const Logo = styled.div`
   position: absolute;
   top: 0;
-  right: 30px;
+  right: 0;
   height: 100%;
   padding: 20px;
   display: flex;
@@ -60,6 +60,9 @@ const Logo = styled.div`
       padding-right: 5px;
     }
   }
+  /* @media only screen and (min-width: 992px) {
+    right: 5px;
+  } */
 `;
 
 const WhatWeDo = () => {
@@ -73,15 +76,6 @@ const WhatWeDo = () => {
         id="what"
         borBot={colors.border}
       >
-        {width > 849 && (
-          <Logo>
-            <p>
-              <span>{"Celebration"}</span>
-              {" decor"}
-            </p>
-          </Logo>
-        )}
-
         <Container>
           <Content>
             <Sides>

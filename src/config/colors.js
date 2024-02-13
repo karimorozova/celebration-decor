@@ -11,6 +11,5 @@ export const colors = {
   tealColor: "#008080",
   boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
   whatsapp: "#25D366",
-  viber: "#7360F2",
   telegram: "#0088CC",
 };

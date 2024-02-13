@@ -1,5 +1,5 @@
 export const imagesConfig = {
-  floral: [
+  workshop: [
     {
       src: "/images/floral/floral.jpg",
       original: "/images/floral/floral.jpg",
@@ -9,8 +9,8 @@ export const imagesConfig = {
     {
       src: "/images/floral/floral1.jpg",
       original: "/images/floral/floral1.jpg",
-      width: 350,
-      height: 332,
+      width: 312,
+      height: 330,
     },
     {
       src: "/images/floral/floral6.jpg",
@@ -21,14 +21,14 @@ export const imagesConfig = {
     {
       src: "/images/floral/floral2.jpg",
       original: "/images/floral/floral2.jpg",
-      width: 420,
-      height: 352,
+      width: 320,
+      height: 312,
     },
     {
       src: "/images/floral/floral3.jpg",
       original: "/images/floral/floral3.jpg",
-      width: 350,
-      height: 332,
+      width: 320,
+      height: 312,
     },
     {
       src: "/images/floral/floral4.jpg",
@@ -46,8 +46,8 @@ export const imagesConfig = {
     {
       src: "/images/floral/floral7.JPG",
       original: "/images/floral/floral7.JPG",
-      width: 380,
-      height: 352,
+      width: 320,
+      height: 312,
     },
     {
       src: "/images/floral/floral10.jpg",
@@ -77,7 +77,7 @@ export const imagesConfig = {
     {
       src: "/images/floral/floral12.jpg",
       original: "/images/floral/floral12.jpg",
-      width: 380,
+      width: 320,
       height: 312,
     },
     {
@@ -89,14 +89,14 @@ export const imagesConfig = {
     {
       src: "/images/floral/floral14.jpg",
       original: "/images/floral/floral14.jpg",
-      width: 400,
-      height: 280,
+      width: 360,
+      height: 312,
     },
     {
       src: "/images/floral/floral15.jpg",
       original: "/images/floral/floral15.jpg",
-      width: 420,
-      height: 352,
+      width: 360,
+      height: 312,
     },
     {
       src: "/images/floral/floral16.jpg",
@@ -108,7 +108,7 @@ export const imagesConfig = {
       src: "/images/floral/floral17.JPG",
       original: "/images/floral/floral17.JPG",
       width: 320,
-      height: 183,
+      height: 230,
     },
     {
       src: "/images/floral/floral18.jpg",
@@ -121,7 +121,7 @@ export const imagesConfig = {
       src: "/images/floral/floral19.jpg",
       original: "/images/floral/floral19.jpg",
       width: 320,
-      height: 212,
+      height: 312,
     },
     {
       src: "/images/floral/floral20.jpg",
@@ -141,7 +141,7 @@ export const imagesConfig = {
       original: "/images/floral/floral22.JPG",
 
       width: 320,
-      height: 250,
+      height: 312,
     },
     {
       src: "/images/floral/floral23.JPG",
@@ -186,7 +186,7 @@ export const imagesConfig = {
       src: "/images/floral/floral29.jpg",
       original: "/images/floral/floral29.jpg",
       width: 320,
-      height: 312,
+      height: 332,
     },
     {
       src: "/images/floral/floral30.JPG",
@@ -198,8 +198,8 @@ export const imagesConfig = {
       src: "/images/floral/floral31.JPG",
       original: "/images/floral/floral31.JPG",
 
-      width: 380,
-      height: 340,
+      width: 320,
+      height: 312,
     },
     {
       src: "/images/floral/floral32.JPG",
@@ -226,12 +226,6 @@ export const imagesConfig = {
       height: 270,
     },
     {
-      src: "/images/wedding/wedding16.jpg",
-      original: "/images/wedding/wedding16.jpg",
-      width: 420,
-      height: 390,
-    },
-    {
       src: "/images/wedding/wedding18.jpg",
       original: "/images/wedding/wedding18.jpg",
       width: 340,
@@ -254,14 +248,14 @@ export const imagesConfig = {
     {
       src: "/images/wedding/wedding1.jpg",
       original: "/images/wedding/wedding1.jpg",
-      width: 370,
+      width: 312,
       height: 320,
     },
     {
       src: "/images/wedding/wedding6.jpg",
       original: "/images/wedding/wedding6.jpg",
       width: 320,
-      height: 250,
+      height: 312,
     },
     {
       src: "/images/wedding/wedding2.jpg",
@@ -272,20 +266,20 @@ export const imagesConfig = {
     {
       src: "/images/wedding/wedding3.jpg",
       original: "/images/wedding/wedding3.jpg",
-      width: 420,
+      width: 390,
       height: 352,
     },
     {
       src: "/images/wedding/wedding4.jpg",
       original: "/images/wedding/wedding4.jpg",
       width: 320,
-      height: 283,
+      height: 312,
     },
     {
       src: "/images/wedding/wedding5.jpg",
       original: "/images/wedding/wedding5.jpg",
       width: 380,
-      height: 270,
+      height: 312,
     },
 
     {
@@ -294,25 +288,20 @@ export const imagesConfig = {
       width: 360,
       height: 312,
     },
-    {
-      src: "/images/wedding/wedding10.jpeg",
-      original: "/images/wedding/wedding10.jpeg",
-      width: 310,
-      height: 340,
-    },
+
     {
       src: "/images/wedding/wedding9.PNG",
       original: "/images/wedding/wedding9.PNG",
       alt: "Big Ben - London",
       width: 320,
-      height: 390,
+      height: 360,
     },
     {
       src: "/images/wedding/wedding8.jpg",
       original: "/images/wedding/wedding8.jpg",
 
       width: 320,
-      height: 250,
+      height: 312,
     },
     {
       src: "/images/wedding/wedding21.jpg",
@@ -331,14 +320,14 @@ export const imagesConfig = {
     {
       src: "/images/wedding/wedding23.jpg",
       original: "/images/wedding/wedding23.jpg",
-      width: 350,
-      height: 303,
+      width: 320,
+      height: 360,
     },
     {
       src: "/images/wedding/wedding24.JPG",
       original: "/images/wedding/wedding24.JPG",
       width: 320,
-      height: 312,
+      height: 360,
     },
     {
       src: "/images/wedding/wedding25.JPG",
@@ -352,7 +341,7 @@ export const imagesConfig = {
       original: "/images/wedding/wedding26.jpg",
 
       width: 320,
-      height: 312,
+      height: 360,
     },
     {
       src: "/images/wedding/wedding27.JPG",
@@ -377,14 +366,14 @@ export const imagesConfig = {
       src: "/images/wedding/wedding30.JPG",
       original: "/images/wedding/wedding30.JPG",
       width: 320,
-      height: 313,
+      height: 360,
     },
     {
       src: "/images/wedding/wedding31.jpg",
       original: "/images/wedding/wedding31.jpg",
 
       width: 320,
-      height: 300,
+      height: 360,
     },
     {
       src: "/images/wedding/wedding32.JPG",
@@ -402,13 +391,13 @@ export const imagesConfig = {
       src: "/images/wedding/wedding34.JPG",
       original: "/images/wedding/wedding34.JPG",
       width: 520,
-      height: 382,
+      height: 582,
     },
     {
       src: "/images/wedding/wedding35.JPG",
       original: "/images/wedding/wedding35.JPG",
-      width: 320,
-      height: 312,
+      width: 400,
+      height: 460,
     },
     {
       src: "/images/wedding/wedding36.JPG",
@@ -439,13 +428,13 @@ export const imagesConfig = {
       src: "/images/wedding/wedding40.JPG",
       original: "/images/wedding/wedding40.JPG",
       width: 320,
-      height: 312,
+      height: 390,
     },
     {
       src: "/images/wedding/wedding41.jpg",
       original: "/images/wedding/wedding41.jpg",
       width: 320,
-      height: 290,
+      height: 312,
     },
     {
       src: "/images/wedding/wedding42.JPG",
@@ -471,12 +460,12 @@ export const imagesConfig = {
       src: "/images/wedding/wedding45.jpg",
       original: "/images/wedding/wedding45.jpg",
       width: 320,
-      height: 250,
+      height: 312,
     },
     {
       src: "/images/wedding/wedding46.jpg",
       original: "/images/wedding/wedding46.jpg",
-      width: 420,
+      width: 360,
       height: 312,
     },
     {
@@ -501,7 +490,7 @@ export const imagesConfig = {
       src: "/images/wedding/wedding50.jpg",
       original: "/images/wedding/wedding50.jpg",
       width: 320,
-      height: 280,
+      height: 312,
     },
     {
       src: "/images/wedding/wedding51.jpg",
@@ -534,7 +523,7 @@ export const imagesConfig = {
       original: "/images/wedding/wedding55.jpg",
 
       width: 320,
-      height: 250,
+      height: 312,
     },
     {
       src: "/images/wedding/wedding56.jpg",
@@ -546,7 +535,7 @@ export const imagesConfig = {
       src: "/images/wedding/wedding57.jpg",
       original: "/images/wedding/wedding57.jpg",
       width: 320,
-      height: 310,
+      height: 320,
     },
     {
       src: "/images/wedding/wedding58.jpg",
@@ -560,13 +549,13 @@ export const imagesConfig = {
       original: "/images/wedding/wedding59.jpg",
 
       width: 320,
-      height: 350,
+      height: 390,
     },
     {
       src: "/images/wedding/wedding60.jpg",
       original: "/images/wedding/wedding60.jpg",
       width: 313,
-      height: 320,
+      height: 340,
     },
     {
       src: "/images/wedding/wedding61.jpg",
@@ -712,14 +701,14 @@ export const imagesConfig = {
     {
       src: "/images/seasonal/seasonal1.jpg",
       original: "/images/seasonal/seasonal1.jpg",
-      width: 420,
+      width: 320,
       height: 312,
     },
     {
       src: "/images/seasonal/seasonal6.jpg",
       original: "/images/seasonal/seasonal6.jpg",
       width: 320,
-      height: 190,
+      height: 312,
     },
     {
       src: "/images/seasonal/seasonal2.jpg",
@@ -736,8 +725,8 @@ export const imagesConfig = {
     {
       src: "/images/seasonal/seasonal4.jpg",
       original: "/images/seasonal/seasonal4.jpg",
-      width: 320,
-      height: 312,
+      width: 290,
+      height: 382,
     },
     {
       src: "/images/seasonal/seasonal5.jpg",
@@ -749,14 +738,14 @@ export const imagesConfig = {
     {
       src: "/images/seasonal/seasonal7.jpg",
       original: "/images/seasonal/seasonal7.jpg",
-      width: 390,
+      width: 320,
       height: 312,
     },
     {
       src: "/images/seasonal/seasonal10.jpg",
       original: "/images/seasonal/seasonal10.jpg",
       width: 320,
-      height: 290,
+      height: 312,
     },
     {
       src: "/images/seasonal/seasonal9.jpg",
@@ -770,7 +759,7 @@ export const imagesConfig = {
       original: "/images/seasonal/seasonal8.jpg",
 
       width: 320,
-      height: 250,
+      height: 312,
     },
     {
       src: "/images/seasonal/seasonal11.jpg",
@@ -787,13 +776,13 @@ export const imagesConfig = {
     {
       src: "/images/seasonal/seasonal13.jpg",
       original: "/images/seasonal/seasonal13.jpg",
-      width: 420,
+      width: 320,
       height: 312,
     },
     {
       src: "/images/seasonal/seasonal14.jpg",
       original: "/images/seasonal/seasonal14.jpg",
-      width: 400,
+      width: 320,
       height: 312,
     },
     {
@@ -805,13 +794,13 @@ export const imagesConfig = {
     {
       src: "/images/seasonal/seasonal16.jpg",
       original: "/images/seasonal/seasonal16.jpg",
-      width: 420,
+      width: 320,
       height: 352,
     },
     {
       src: "/images/seasonal/seasonal17.jpg",
       original: "/images/seasonal/seasonal17.jpg",
-      width: 370,
+      width: 320,
       height: 342,
     },
     {
@@ -824,14 +813,14 @@ export const imagesConfig = {
     {
       src: "/images/seasonal/seasonal19.jpg",
       original: "/images/seasonal/seasonal19.jpg",
-      width: 420,
+      width: 320,
       height: 312,
     },
     {
       src: "/images/seasonal/seasonal20.jpg",
       original: "/images/seasonal/seasonal20.jpg",
       width: 320,
-      height: 320,
+      height: 312,
     },
     {
       src: "/images/seasonal/seasonal21.jpg",
@@ -857,13 +846,13 @@ export const imagesConfig = {
       src: "/images/seasonal/seasonal24.jpg",
       original: "/images/seasonal/seasonal24.jpg",
       width: 320,
-      height: 290,
+      height: 312,
     },
     {
       src: "/images/seasonal/seasonal25.jpg",
       original: "/images/seasonal/seasonal25.jpg",
       alt: "Big Ben - London",
-      width: 248,
+      width: 312,
       height: 320,
     },
     {
@@ -900,8 +889,8 @@ export const imagesConfig = {
     {
       src: "/images/seasonal/seasonal31.jpg",
       original: "/images/seasonal/seasonal31.jpg",
-      width: 360,
-      height: 332,
+      width: 320,
+      height: 312,
     },
   ],
   outdoor: [
@@ -939,7 +928,7 @@ export const imagesConfig = {
       src: "/images/outdoor/outdoo4.jpg",
       original: "/images/outdoor/outdoo4.jpg",
       width: 320,
-      height: 193,
+      height: 250,
     },
     {
       src: "/images/outdoor/outdoo5.jpg",
@@ -1106,13 +1095,13 @@ export const imagesConfig = {
       src: "/images/event/event1.PNG",
       original: "/images/event1/event.jpg",
       width: 520,
-      height: 312,
+      height: 290,
     },
     {
       src: "/images/event/event6.jpg",
       original: "/images/event/event6.jpg",
-      width: 320,
-      height: 190,
+      width: 420,
+      height: 312,
     },
     {
       src: "/images/event/event2.jpg",
@@ -1142,7 +1131,7 @@ export const imagesConfig = {
     {
       src: "/images/event/event7.jpg",
       original: "/images/event/event7.jpg",
-      width: 420,
+      width: 380,
       height: 312,
     },
     {

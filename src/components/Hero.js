@@ -57,7 +57,11 @@ const Hero = () => {
       <Container pl={pl} pr={pr}>
         <Sides>
           <LeftSide>
-            <CommonImage source={"/images/hero.jpg"} width={640} height={787} />
+            <CommonImage
+              source={"/images/heroN.jpg"}
+              width={640}
+              height={787}
+            />
           </LeftSide>
           <RightSide>
             <Title title={"Hi! We are Celebration decor"} />

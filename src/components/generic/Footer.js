@@ -52,6 +52,7 @@ const InternalLink = styled(Link)`
   color: ${colors.secodaryText};
   cursor: pointer;
   padding: 7px;
+  font-weight: 500;
   &:hover {
     text-decoration: underline;
     color: ${colors.tealColor};
@@ -71,9 +72,23 @@ const PhoneWrap = styled(Link)`
   gap: 5px;
   color: ${colors.secodaryText};
   text-decoration: none;
+  p {
+    position: relative;
+    padding-bottom: 5px;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: ${colors.tealColor};
+      opacity: 0;
+    }
+  }
   &:hover {
-    p {
-      text-decoration: underline;
+    p::after {
+      opacity: 1;
     }
   }
 `;
@@ -106,10 +121,7 @@ const Footer = () => {
               {"Contacts"}
             </InternalLink>
           </SocialMedia>
-          <PhoneWrap href={"mailto:lenaryapolova2@gmail.com"}>
-            <TfiEmail size={20} color={colors.tealColor} />
-            <p>{"lenaryapolova2@gmail.com"}</p>
-          </PhoneWrap>
+
           <PhoneWrap href={"tel:330625744735"}>
             <BsTelephone size={20} color={colors.tealColor} />
             <p>{"+330625744735"}</p>
@@ -118,15 +130,14 @@ const Footer = () => {
             <FaWhatsapp size={20} color={colors.whatsapp} />
             <p>{"+380959021066"}</p>
           </PhoneWrap>
-          <PhoneWrap href={"viber://chat?number=+380959021066"} target="_blank">
-            <FaViber size={20} color={colors.viber} />
-            <p>{"+380959021066"}</p>
-          </PhoneWrap>
           <PhoneWrap href={"https://t.me/+380959021066"} target="_blank">
             <FaTelegram size={20} color={colors.telegram} />
             <p>{"+380959021066"}</p>
           </PhoneWrap>
-
+          <PhoneWrap href={"mailto:lenaryapolova2@gmail.com"}>
+            <TfiEmail size={20} color={colors.tealColor} />
+            <p>{"lenaryapolova2@gmail.com"}</p>
+          </PhoneWrap>
           <Copy>{`Copyright © ${new Date().getFullYear()} Celebration decor. All rights reserved.`}</Copy>
         </Content>
         {isContactModal && (

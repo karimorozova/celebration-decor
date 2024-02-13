@@ -2,16 +2,21 @@ import Layout from "@/components/generic/Layout";
 import "@/styles/globals.css";
 import localFont from "next/font/local";
 
-const Poppins = localFont({
+const PlayfairDisplay = localFont({
   src: [
     {
-      path: "../../assets/fonts/Poppins/Poppins-Regular.ttf",
+      path: "../../assets/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../../assets/fonts/Poppins/Poppins-Bold.ttf",
+      path: "../../assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf",
       weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../../assets/fonts/PlayfairDisplay/PlayfairDisplay-Medium.ttf",
+      weight: "500",
       style: "normal",
     },
   ],
@@ -31,7 +36,7 @@ export default function App({ Component, pageProps }) {
     },
   } = pageProps;
   return (
-    <main className={Poppins.className}>
+    <main className={PlayfairDisplay.className}>
       <Layout
         metaData={{
           ...metaData,

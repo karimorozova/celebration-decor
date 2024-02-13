@@ -59,7 +59,7 @@ const MeetUs = () => {
               <RightSide order={1}>
                 <ImgWrap>
                   <CommonImage
-                    source={"/images/meet.jpg"}
+                    source={"/images/meetN.jpg"}
                     width={1125}
                     height={1125}
                   />

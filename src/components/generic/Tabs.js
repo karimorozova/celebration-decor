@@ -32,7 +32,7 @@ const Tab = styled(Link)`
 `;
 const Tabs = () => {
   const router = useRouter();
-  const tabs = ["Wedding", "Events", "Floral", "Seasonal", "Outdoor"];
+  const tabs = ["Wedding", "Events", "Workshop", "Seasonal", "Outdoor"];
   const [active, setActive] = useState();
 
   useEffect(() => {

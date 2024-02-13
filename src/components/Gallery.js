@@ -73,7 +73,7 @@ const GalleryPage = () => {
   const handleMoveNext = () => setIndex(nextIndex);
 
   return (
-    <Section pt={100}>
+    <Section pt={100} pb={100}>
       {width > 1034 && (
         <Logo>
           <p>

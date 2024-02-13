@@ -43,7 +43,7 @@ const Slide = styled.div`
   background-color: ${colors.mainWhite};
   color: ${colors.secodaryText};
   border-radius: 15px;
-  padding: 20px;
+  padding: 20px 20px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
