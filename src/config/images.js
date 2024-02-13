@@ -44,8 +44,8 @@ export const imagesConfig = {
     },
 
     {
-      src: "/images/floral/floral7.JPG",
-      original: "/images/floral/floral7.JPG",
+      src: "/images/floral/floral7.jpg",
+      original: "/images/floral/floral7.jpg",
       width: 320,
       height: 312,
     },
