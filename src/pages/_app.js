@@ -31,7 +31,7 @@ export default function App({ Component, pageProps }) {
       description: "Celebration decor | Wedding decor | Event decorations",
       type: "website",
       url: "",
-      thumbImage: "/images/meta.png",
+      thumbImage: "/images/metaN.png",
       coverImageIsExternal: "",
     },
   } = pageProps;
