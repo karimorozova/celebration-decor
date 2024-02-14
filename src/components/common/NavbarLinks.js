@@ -77,7 +77,7 @@ const NavbarLinks = ({ closeMenu, openModal }) => {
         onClick={() => {
           closeMenu();
         }}
-        href={{ pathname: "/gallery" }}
+        href={"/gallery"}
       >
         {"View our work"}
       </Des>

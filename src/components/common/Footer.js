@@ -110,9 +110,7 @@ const Footer = () => {
             <Line />
             <InternalLink href={"/#reviews"}>{"Reviews"}</InternalLink>
             <Line />
-            <InternalLink href={{ pathname: "/gallery" }}>
-              {"Gallery"}
-            </InternalLink>
+            <InternalLink href={"/gallery"}>{"Gallery"}</InternalLink>
             <Line />
 
             <InternalLink as={"div"} onClick={() => setIsContactModal(true)}>

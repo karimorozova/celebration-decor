@@ -1,5 +1,4 @@
 import GalleryPage from "@/components/Gallery";
-import React from "react";
 
 const Seasonal = () => {
   return <GalleryPage category="seasonal" />;

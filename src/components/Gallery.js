@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { useRouter } from "next/router";
+import React, { useState } from "react";
 import { Gallery } from "react-grid-gallery";
 import styled from "styled-components";
 import Lightbox from "yet-another-react-lightbox";
@@ -50,17 +49,14 @@ const Logo = styled.div`
 `;
 
 const GalleryPage = ({ category = "wedding" }) => {
-  const { query } = useRouter();
   const { width } = useWindowSize();
 
   const [index, setIndex] = useState(-1);
 
   const handleClick = (index, item) => setIndex(index);
-  const slides = imagesConfig[category].map(
-    ({ original, originalW, originalH }) => ({
-      src: original,
-    })
-  );
+  const slides = imagesConfig[category].map(({ original }) => ({
+    src: original,
+  }));
 
   return (
     <Section pt={100} pb={100}>

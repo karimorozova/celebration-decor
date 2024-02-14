@@ -41,8 +41,10 @@ const Logo = styled.div`
 
 const Hero = () => {
   const { width } = useWindowSize();
+
   const pl = width < 991 ? 0 : 100;
   const pr = width < 768 ? 0 : 15;
+
   return (
     <Section pt={0} bg={colors.mainAccent}>
       {width > 849 && (
