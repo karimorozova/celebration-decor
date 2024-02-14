@@ -4,14 +4,14 @@ import styled from "styled-components";
 import useWindowSize from "../../utils/hooks/useWindowSize";
 import { colors } from "@/config/colors";
 
-import Section from "./generic/Section";
-import Container from "./generic/Container";
-import CommonImage from "./generic/CommonImage";
-import Title from "./generic/Title";
-import Subtitle from "./generic/Subtitle";
-import Sides from "./generic/Sides";
-import LeftSide from "./generic/LeftSide";
-import RightSide from "./generic/RightSide";
+import Section from "./common/Section";
+import Container from "./common/Container";
+import CommonImage from "./common/CommonImage";
+import Title from "./common/Title";
+import Subtitle from "./common/Subtitle";
+import Sides from "./common/Sides";
+import LeftSide from "./common/LeftSide";
+import RightSide from "./common/RightSide";
 
 const Logo = styled.div`
   position: absolute;

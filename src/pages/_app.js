@@ -1,4 +1,4 @@
-import Layout from "@/components/generic/Layout";
+import Layout from "@/components/common/Layout";
 import "@/styles/globals.css";
 import localFont from "next/font/local";
 

@@ -2,9 +2,9 @@ import React from "react";
 
 import { colors } from "@/config/colors";
 
-import Slider from "./generic/Slider";
-import Container from "./generic/Container";
-import Section from "./generic/Section";
+import Slider from "./common/Slider";
+import Container from "./common/Container";
+import Section from "./common/Section";
 
 const Rewies = () => {
   return (

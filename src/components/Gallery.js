@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { Gallery } from "react-grid-gallery";
-// import Lightbox from "react-image-lightbox";
-// import "react-image-lightbox/style.css";
 import styled from "styled-components";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -10,9 +8,9 @@ import "yet-another-react-lightbox/styles.css";
 import { imagesConfig } from "@/config/images";
 import useWindowSize from "../../utils/hooks/useWindowSize";
 
-import Section from "./generic/Section";
-import Container from "./generic/Container";
-import Tabs from "./generic/Tabs";
+import Section from "./common/Section";
+import Container from "./common/Container";
+import Tabs from "./common/Tabs";
 
 const Logo = styled.div`
   position: absolute;
@@ -53,31 +51,21 @@ const Logo = styled.div`
 
 const GalleryPage = () => {
   const { query } = useRouter();
-  const [data, setData] = useState(imagesConfig.wedding);
   const { width } = useWindowSize();
+
+  const [data, setData] = useState(imagesConfig.wedding);
+  const [index, setIndex] = useState(-1);
+
+  const handleClick = (index, item) => setIndex(index);
+  const slides = data.map(({ original, originalW, originalH }) => ({
+    src: original,
+  }));
+
   useEffect(() => {
     if (query.category) {
       setData(imagesConfig[query.category.toLowerCase()]);
     }
   }, [query.category]);
-
-  const [index, setIndex] = useState(-1);
-
-  const currentImage = data[index];
-  const nextIndex = (index + 1) % data.length;
-  const nextImage = data[nextIndex] || currentImage;
-  const prevIndex = (index + data.length - 1) % data.length;
-  const prevImage = data[prevIndex] || currentImage;
-
-  const handleClick = (index, item) => setIndex(index);
-  const handleClose = () => setIndex(-1);
-  const handleMovePrev = () => setIndex(prevIndex);
-  const handleMoveNext = () => setIndex(nextIndex);
-  const slides = data.map(({ original, originalW, originalH }) => ({
-    src: original,
-    originalW,
-    originalH,
-  }));
 
   return (
     <Section pt={100} pb={100}>
@@ -97,12 +85,12 @@ const GalleryPage = () => {
             onClick={handleClick}
             enableImageSelection={false}
           />
-       <Lightbox
-        slides={slides}
-        open={index >= 0}
-        index={index}
-        close={() => setIndex(-1)}
-      />
+          <Lightbox
+            slides={slides}
+            open={index >= 0}
+            index={index}
+            close={() => setIndex(-1)}
+          />
         </div>
       </Container>
     </Section>
@@ -110,18 +98,3 @@ const GalleryPage = () => {
 };
 
 export default GalleryPage;
-
-// {!!currentImage && (
-//   <Lightbox
-//     mainSrc={currentImage.original}
-//     imageTitle={currentImage.caption}
-//     mainSrcThumbnail={currentImage.src}
-//     nextSrc={nextImage.original}
-//     nextSrcThumbnail={nextImage.src}
-//     prevSrc={prevImage.original}
-//     prevSrcThumbnail={prevImage.src}
-//     onCloseRequest={handleClose}
-//     onMovePrevRequest={handleMovePrev}
-//     onMoveNextRequest={handleMoveNext}
-//   />
-// )}

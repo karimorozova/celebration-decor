@@ -4,8 +4,8 @@ import Link from "next/link";
 
 import { colors } from "@/config/colors";
 
-import Section from "./generic/Section";
-import Container from "./generic/Container";
+import Section from "./common/Section";
+import Container from "./common/Container";
 
 const Content = styled.div`
   display: flex;

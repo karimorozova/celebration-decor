@@ -2,7 +2,7 @@ import Link from "next/link";
 import styled from "styled-components";
 import { FaPhoneAlt } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
-import { FaWhatsapp, FaViber, FaTelegram } from "react-icons/fa6";
+import { FaWhatsapp, FaTelegram } from "react-icons/fa6";
 
 import { colors } from "@/config/colors";
 
@@ -74,7 +74,7 @@ const Item = styled(Link)`
   }
 `;
 
-const Modal = ({ closeModal = () => {} }) => {
+const ContactsModal = ({ closeModal = () => {} }) => {
   return (
     <Backdrop
       onClick={(e) => {
@@ -106,4 +106,4 @@ const Modal = ({ closeModal = () => {} }) => {
   );
 };
 
-export default Modal;
+export default ContactsModal;

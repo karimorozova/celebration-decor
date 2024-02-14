@@ -899,8 +899,6 @@ export const imagesConfig = {
       original: "/images/outdoor/outdoor.jpg",
       width: 250,
       height: 312,
-      originalW:900,
-      originalH:1000
     },
     {
       src: "/images/outdoor/outdoo1.jpg",

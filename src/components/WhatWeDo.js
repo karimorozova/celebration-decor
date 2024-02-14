@@ -1,16 +1,15 @@
 import styled from "styled-components";
 
-import useWindowSize from "../../utils/hooks/useWindowSize";
 import { colors } from "@/config/colors";
 
-import Container from "./generic/Container";
-import Section from "./generic/Section";
-import Sides from "./generic/Sides";
-import LeftSide from "./generic/LeftSide";
-import RightSide from "./generic/RightSide";
-import Title from "./generic/Title";
-import Subtitle from "./generic/Subtitle";
-import CommonImage from "./generic/CommonImage";
+import Container from "./common/Container";
+import Section from "./common/Section";
+import Sides from "./common/Sides";
+import LeftSide from "./common/LeftSide";
+import RightSide from "./common/RightSide";
+import Title from "./common/Title";
+import Subtitle from "./common/Subtitle";
+import CommonImage from "./common/CommonImage";
 
 const Content = styled.div`
   width: 100%;
@@ -30,43 +29,13 @@ const ImgWrap = styled.div`
     border: 4px solid ${colors.border};
   }
 `;
-
 const Text = styled.div`
   @media only screen and (min-width: 768px) {
     padding-right: 40px;
   }
 `;
-const Logo = styled.div`
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 60px;
-  p {
-    font-family: "Georgia Italic", cursive;
-    font-style: italic;
-    color: ${colors.border};
-    font-size: 24px;
-    transform: rotate(-90deg);
-    min-width: 267px;
-    text-align: center;
-    span {
-      font-size: 35px;
-      font-weight: 700;
-      padding-right: 5px;
-    }
-  }
-  /* @media only screen and (min-width: 992px) {
-    right: 5px;
-  } */
-`;
 
 const WhatWeDo = () => {
-  const { width } = useWindowSize();
   return (
     <div id="what">
       <Section

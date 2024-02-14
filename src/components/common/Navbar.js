@@ -10,7 +10,7 @@ import { colors } from "@/config/colors";
 import useOnClickOutside from "../../../utils/hooks/useOnClickOutside";
 
 import Container from "./Container";
-import Modal from "./Modal";
+import ContactsModal from "./ContactsModal";
 import NavbarLinks from "./NavbarLinks";
 
 const Wrap = styled.div`
@@ -137,7 +137,7 @@ const Navbar = () => {
           )}
         </InnerContainer>
       </Container>
-      {isLogin && <Modal closeModal={() => setIsLogin(false)} />}
+      {isLogin && <ContactsModal closeModal={() => setIsLogin(false)} />}
     </Wrap>
   );
 };

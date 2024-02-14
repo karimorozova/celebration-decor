@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import { FaWhatsapp, FaViber, FaTelegram } from "react-icons/fa6";
+import { FaWhatsapp, FaTelegram } from "react-icons/fa6";
 import { BsTelephone } from "react-icons/bs";
 import { TfiEmail } from "react-icons/tfi";
 import styled from "styled-components";
@@ -10,7 +10,7 @@ import { colors } from "@/config/colors";
 import Section from "./Section";
 import Container from "./Container";
 import SocialMediaList from "./SocialMediaList";
-import Modal from "./Modal";
+import ContactsModal from "./ContactsModal";
 
 const Content = styled.div`
   display: flex;
@@ -141,7 +141,7 @@ const Footer = () => {
           <Copy>{`Copyright © ${new Date().getFullYear()} Celebration decor. All rights reserved.`}</Copy>
         </Content>
         {isContactModal && (
-          <Modal closeModal={() => setIsContactModal(false)} />
+          <ContactsModal closeModal={() => setIsContactModal(false)} />
         )}
       </Container>
     </Section>

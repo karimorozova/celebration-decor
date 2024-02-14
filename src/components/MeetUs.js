@@ -3,14 +3,14 @@ import styled from "styled-components";
 import { colors } from "@/config/colors";
 import useWindowSize from "../../utils/hooks/useWindowSize";
 
-import Container from "./generic/Container";
-import Section from "./generic/Section";
-import Sides from "./generic/Sides";
-import LeftSide from "./generic/LeftSide";
-import RightSide from "./generic/RightSide";
-import Title from "./generic/Title";
-import Subtitle from "./generic/Subtitle";
-import CommonImage from "./generic/CommonImage";
+import Container from "./common/Container";
+import Section from "./common/Section";
+import Sides from "./common/Sides";
+import LeftSide from "./common/LeftSide";
+import RightSide from "./common/RightSide";
+import Title from "./common/Title";
+import Subtitle from "./common/Subtitle";
+import CommonImage from "./common/CommonImage";
 
 const Content = styled.div`
   width: 100%;
