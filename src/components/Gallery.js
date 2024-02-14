@@ -49,23 +49,18 @@ const Logo = styled.div`
   }
 `;
 
-const GalleryPage = () => {
+const GalleryPage = ({ category = "wedding" }) => {
   const { query } = useRouter();
   const { width } = useWindowSize();
 
-  const [data, setData] = useState(imagesConfig.wedding);
   const [index, setIndex] = useState(-1);
 
   const handleClick = (index, item) => setIndex(index);
-  const slides = data.map(({ original, originalW, originalH }) => ({
-    src: original,
-  }));
-
-  useEffect(() => {
-    if (query.category) {
-      setData(imagesConfig[query.category.toLowerCase()]);
-    }
-  }, [query.category]);
+  const slides = imagesConfig[category].map(
+    ({ original, originalW, originalH }) => ({
+      src: original,
+    })
+  );
 
   return (
     <Section pt={100} pb={100}>
@@ -81,7 +76,7 @@ const GalleryPage = () => {
         <Tabs />
         <div>
           <Gallery
-            images={data}
+            images={imagesConfig[category]}
             onClick={handleClick}
             enableImageSelection={false}
           />

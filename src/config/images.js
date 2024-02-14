@@ -1080,7 +1080,7 @@ export const imagesConfig = {
     },
     {
       src: "/images/event/event1.PNG",
-      original: "/images/event1/event.jpg",
+      original: "/images/event/event1.PNG",
       width: 520,
       height: 290,
     },

@@ -109,7 +109,7 @@ const Navbar = () => {
     <Wrap ref={ref} bg={bg}>
       <Container>
         <InnerContainer>
-          {router.pathname === "/gallery" && (
+          {router.pathname.startsWith("/gallery") && (
             <Logo href={"/"}>{"Celebration decor"}</Logo>
           )}
 

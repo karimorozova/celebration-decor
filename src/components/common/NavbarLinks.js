@@ -77,7 +77,7 @@ const NavbarLinks = ({ closeMenu, openModal }) => {
         onClick={() => {
           closeMenu();
         }}
-        href={{ pathname: "/gallery", query: { category: "Wedding" } }}
+        href={{ pathname: "/gallery" }}
       >
         {"View our work"}
       </Des>

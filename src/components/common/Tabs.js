@@ -33,18 +33,19 @@ const Tab = styled(Link)`
 const Tabs = () => {
   const router = useRouter();
   const tabs = ["Wedding", "Events", "Workshop", "Seasonal", "Outdoor"];
-  const [active, setActive] = useState();
-
-  useEffect(() => {
-    setActive(router.query.category);
-  }, [router.query.category]);
 
   return (
     <TabsWrap>
       {tabs.map((el, i) => (
         <Tab
-          href={`/gallery?category=${el}`}
-          data-active={active === el ? true : null}
+          href={`/gallery/${el.toLowerCase()}`}
+          data-active={
+            router.pathname === "/gallery" && el.toLowerCase() === "wedding"
+              ? true
+              : router.pathname === `/gallery/${el.toLowerCase()}`
+              ? true
+              : null
+          }
           key={i}
         >
           {el}
