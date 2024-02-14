@@ -164,11 +164,11 @@ const Slider = () => {
       des: "It was such a romantic atmosphere at our wedding! Everything was at the highest level, thank you so much for everything you did!",
     },
     {
-      name: "Evgenia, Kherson,Ukraine",
+      name: "Evgenia, Kherson, Ukraine",
       des: "Everything is incredibly gentle, simple and beautiful, just as I wanted! I am very glad I chose you, it was as it you felt me",
     },
     {
-      name: "Alona , Strasbourg, France",
+      name: "Alona, Strasbourg, France",
       des: "C'était une superbe expérience. J'ai pu faire mon propre bouquet comme je le souhaitais et avec les conseils d'une vraie pro dans le domaine. L'ambiance était au top et tout le monde avait l'air content d'être là. Merci encore et j'attends le prochain workshop!",
     },
     {
@@ -176,7 +176,7 @@ const Slider = () => {
       des: "You are a professional in your field,I know that it will be good, but I didn't even think that it would be like that! We are very pleased with the decoration of our wedding! It was so gentle and stylish, just the way I like it . Thank you very much!",
     },
     {
-      name: "Olga, Savern , France",
+      name: "Olga, Saverne, France",
       des: "Je ne voulais pas avoir une décoration de table de mariage banale ou classique… Je voulais avoir une prairie fleurie avec des fleurs du jardin simple et chique! Merci beaucoup pour votre professionnalisme, vous avez réalisé mes rêves! Les bougies, les vases, les fleurs, les serviettes… tout était parfait! Le bouquet de la mariée est tout simplement un coup de foudre! Merci pour votre travail, professionnalisme! Écoute!",
     },
   ];
